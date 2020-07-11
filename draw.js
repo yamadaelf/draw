@@ -47,7 +47,7 @@ function draw(){
 
         var l = ap.length;
         var girl = parseInt(Math.random()*(l-1));
-        var sp = 'resource/images/star'+a+'/'+(girl+1)+'.png';
+        var sp = '/resource/images/star'+a+'/'+(girl+1)+'.png';
         $(".p"+i).children('img').attr('src',sp);
         if(a==3){
             var ht = '<img src="'+sp+'">';
@@ -55,7 +55,7 @@ function draw(){
         }
         $(".p"+i).children('i').text(ap[girl]);
         for(var j=1;j<=a;j++){
-            var ht = '<img src="resource/images/st.png" style="width:30px;padding:0;">';
+            var ht = '<img src="/resource/images/st.png" style="width:30px;padding:0;">';
             $(".p"+i).children('span').append(ht);
         }
     }
