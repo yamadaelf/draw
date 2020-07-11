@@ -3,7 +3,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background-image: url(/resource/images/twintail.png);
+    background-image: url(/draw/resource/images/twintail.png);
     background-size: cover;
 
 
@@ -19,11 +19,11 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #181818;
-    background-image: url(/resource/images/itembg.png);
+    background-image: url(/draw/resource/images/itembg.png);
 }
 
 .gacha-box {
-    background-image: url(/resource/images/gachabg.jpg);
+    background-image: url(/draw/resource/images/gachabg.jpg);
     background-size: cover;
     width: 1024px;
     height: 455px;
@@ -101,7 +101,7 @@ body {
     top:500px;
     width: 300px;
     height: 150px;
-    background: url("/resource/images/peco.gif") no-repeat;
+    background: url("/draw/resource/images/peco.gif") no-repeat;
 }
 .u1{
     position:absolute;
@@ -109,5 +109,5 @@ body {
     top:500px;
     width: 300px;
     height: 150px;
-    background: url("/resource/images/u1.gif") no-repeat;
+    background: url("/draw/resource/images/u1.gif") no-repeat;
 }
