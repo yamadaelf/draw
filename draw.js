@@ -47,11 +47,11 @@ function draw(){
 
         var l = ap.length;
         var girl = parseInt(Math.random()*(l-1));
-<<<<<<< HEAD
+
         var sp = 'images/star'+a+'/'+(girl+1)+'.png';
-=======
+
         var sp = '/resource/images/star'+a+'/'+(girl+1)+'.png';
->>>>>>> ef221421487f7c138a9319591f471896bdff3040
+
         $(".p"+i).children('img').attr('src',sp);
         if(a==3){
             var ht = '<img src="'+sp+'">';
@@ -59,11 +59,11 @@ function draw(){
         }
         $(".p"+i).children('i').text(ap[girl]);
         for(var j=1;j<=a;j++){
-<<<<<<< HEAD
+
             var ht = '<img src="images/st.png" style="width:30px;padding:0;">';
-=======
+
             var ht = '<img src="/resource/images/st.png" style="width:30px;padding:0;">';
->>>>>>> ef221421487f7c138a9319591f471896bdff3040
+
             $(".p"+i).children('span').append(ht);
         }
     }
