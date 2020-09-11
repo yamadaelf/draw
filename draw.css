@@ -3,7 +3,7 @@ body {
     height: auto;
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
-    background-image: url(/elf/resource/images/twintail.png);
+    background-image: url(/images/twintail.png);
     background-size: cover;
 
 
@@ -19,17 +19,17 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #181818;
-    background-image: url(/elf/resource/images/itembg.png);
+    background-image: url(/images/itembg.png);
 }
 @media only screen and (max-width: 1000px)
     .gacha-box {
         width: 100%;
         height: auto;
         padding-bottom: 60px;
-        background: url(/static/images/gachabg.jpg) 50%;
+        background: url(/images/gachabg.jpg) 50%;
     }
 .gacha-box {
-    background-image: url(/elf/resource/images/gachabg.jpg);
+    background-image: url(/images/gachabg.jpg);
     background-size: cover;
     width: 1024px;
     height: 455px;
@@ -119,7 +119,7 @@ body {
     width: 300px;
     height: 150px;
     float:left;
-    background: url("/elf/resource/images/peco.gif") no-repeat;
+    background: url("/images/peco.gif") no-repeat;
 }
 .u1{
     position:absolute;
@@ -128,7 +128,7 @@ body {
     width: 300px;
     height: 150px;
     float:left;
-    background: url("/elf/resource/images/u1.gif") no-repeat;
+    background: url("/images/u1.gif") no-repeat;
 }  .hatsune{
        position:absolute;
        left:45%;
@@ -136,5 +136,5 @@ body {
        width: 300px;
        height: 150px;
        float:left;
-       background: url("/elf/resource/images/hatsune.gif") no-repeat;
+       background: url("/images/hatsune.gif") no-repeat;
    }
